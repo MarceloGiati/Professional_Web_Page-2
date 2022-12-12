@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Website Profissional</title>
+
+   <link rel="shortcut icon" href="./src/img/engenharia-de-software.png">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+   <link rel="stylesheet" href="./src/css/style.css">
+   <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+   <!-- Home -->
+   <div class="container">
+      <div class="navigation">
+         <ul>
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#project" onclick="toggleMenu();">Projects</a></li>
+         </ul>
+
+         <div class="themeSwitch"></div>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="main">
+         <div class="topbar">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle">
+               <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+         </div>
+
+         <!-- Banner -->
+         <section class="banner" id="banner">
+            <div class="content">
+               <div class="imgBx">
+                  <img src="./src/img/foto-1.jpg" alt="minhaFoto"> <!-- Colocar minha foto no src -->
+               </div>
+               <h3>Marcelo Giati</h3>
+               <P>I'm Software Engineer</P>
+               <!-- Colocar no href o index do CV feit ou PDF-->
+               <a href="./CV_MarceloGiati_J-D.pdf" class="btn">Download My CV</a> 
+               <ul class="socialMedia">
+                  <li>
+                     <a href="https://www.linkedin.com/in/marcelo-giati"><i class="fa fa-linkedin" aria-hidden="true" alt="linkedin"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://github.com/MarceloGiati"><i class="fa fa-github" aria-hidden="true" alt="github"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://api.whatsapp.com/send?phone=5519997350507&text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20suporte%20da%20API%20MyZAP"><i class="fa fa-whatsapp" aria-hidden="true" alt="whatsapp"></i></a>
+                  </li>
+                  <li>
+                     <a href="mailto:mtgiati@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true" alt="email"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+
+         <!-- About -->
+         <section class="about adjust" id="about">
+            <div class="title">
+               <h2>About Me</h2>
+            </div>
+
+            <div class="content">
+               <div class="textBox">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptas ipsam fugit eos tenetur illo, recusandae, debitis omnis dolor, rerum excepturi quia cumque voluptatem ab voluptatum amet accusamus consectetur sint! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime aspernatur fugit, quae est, corrupti quis ea dolores odio tempore minus minima. Aspernatur aut voluptatum enim libero natus recusandae blanditiis. <br><br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos temporibus corporis a laudantium pariatur porro aliquam, voluptatem expedita repellat quam voluptas officiis dolor in! Cupiditate exercitationem aspernatur delectus veniam nam?</p>
+               </div>
+
+               <div class="imgBx">
+                  <!-- Colocar minha foto -->
+                  <img src="./src/img/foto-2.png" alt="minha foto"> 
+               </div>
+            </div>
+         </section>
+
+         <!-- Projects -->
+         <section class="project adjust" id="project">
+            <div class="title">
+               <h2>Projects</h2>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="content"> <!-- 01 --> <!-- Back End -->
+               <div class="projectBox">
+                  <img src="./src/img/backend.png" alt="backend">
+                  <h2>Back End</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quis nobis dolorum est mollitia consectetur eligendi hic dolore, quam distinctio doloremque et repellendus iste tempore reprehenderit ea laborum quas ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fugit eos impedit, est sint hic, possimus officia molestiae expedita dolorem, fuga autem ab! Corrupti nemo, rerum quod sunt commodi porro?</p>
+                  <a href="#" class="btnBx">Link to Project</a>
+               </div>
+
+               <div class="projectBox"> <!-- 02 --> <!-- Back End -->
+                  <img src="./src/img/backend.png" alt="backend">
+                  <h2>Back End</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum non, aspernatur fugiat, reiciendis voluptate quis culpa perferendis ipsam id magni vero eum officiis possimus in animi modi accusamus! Harum!</p>
+                  <a href="#" class="btnBx">Link to Project</a>
+               </div>
+
+               <div class="projectBox"> <!-- 03 --> <!-- Back ENd -->
+                  <img src="./src/img/backend.png" alt="backend">
+                  <h2>Back End</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="#" class="btnBx">Link to Project</a>
+               </div>
+
+               <div class="projectBox"> <!-- 04 --> <!-- Front End -->
+                  <img src="./src/img/frontend.png" alt="frontend">
+                  <h2>Front End</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="#" class="btnBx">Link to Project</a>
+               </div>
+
+               <div class="projectBox"> <!-- 05 --> <!-- Front End -->
+                  <img src="./src/img/frontend.png" alt="frontend">
+                  <h2>Front End</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="" class="btnBx">Link to Project</a>
+               </div>
+
+               <div class="projectBox"> <!-- 06 --> <!-- Front End -->
+                  <img src="./src/img/frontend.png" alt="frontend">
+                  <h2>Front End</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="" class="btnBx">Link to Project</a>
+               </div>
+            </div>
+      </section>
+
+         <!-- Copyright Text -->
+         <div class="copyright">
+            <p>&copy; Copyright 2022 - Page Creation: <em>Marcelo Giati</em></p>
+         </div>
+      </div>
+   </div>  
+   
+   <!-- Page Action -->
+   <script src="./src/js/action.js"></script>
+   <script src="./src/js/theme.js"></script>
+   <script src="./src/js/toggle.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,18 @@
+
+Prada acrecenter o CV como Index.html
+
+<!-- ============================================================= -->
+HTML  
+<!-- Return to Website Colocar index do siste do CV-->
+   <!-- <a href="#" class="mainWebsite"></a>
+<i class="fa fa-arrow-left" aria-hidden="true">
+</i>Back to main Website</a> -->
+
+----------------------------------------------------------------------------
+CSS
+/* Colocar no Css do CV */
+/* .mainWebsite {
+   margin: 20px 0;
+   color: #111;
+   text-decoration: none;
+} */
